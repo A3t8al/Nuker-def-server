@@ -9,8 +9,12 @@
 Nuker Zero is a fast, encrypted, and modified version of the Nuker tool. It is designed to be lightweight and efficient, working seamlessly on iOS (via iSH), Android, and Linux.
 
 ## Screenshots
-![Main Menu](https://via.placeholder.com/600x300?text=Nuker+Zero+Main+Menu)
-(Replace the link above with your actual screenshot)
+
+### Tool Files
+![Tool Files](IMG_8239.jpeg)
+
+### Tool Interface
+![Tool Interface](IMG_8240.jpeg)
 
 ## Requirements
 Before running the tool, make sure you have the following installed:
