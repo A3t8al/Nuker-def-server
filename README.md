@@ -11,11 +11,11 @@
 
 ### Tool Files
 
-![Tool Files](IMG_8239.jpeg)
+![Tool Files](‏imgs/IMG_8239.jpeg)
 
 ### Tool Interface
 
-![Tool Interface](IMG_8240.jpeg)
+![Tool Interface](‏imgs/IMG_8240.jpeg)
 
 ## Requirements
 
