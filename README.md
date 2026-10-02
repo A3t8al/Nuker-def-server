@@ -31,12 +31,12 @@ Before running the tool, make sure the following are installed:
 
 You can download the project directly from the GitHub repository:
 
-[Nuker-def-server on GitHub](https://github.com/zzxey123xx/Nuker-def-server)
+[Nuker-def-server on GitHub](https://github.com/A3t8al/Nuker-def-server.git)
 
 #### Option 1: Clone the Repository with Git
 
 ```bash
-git clone https://github.com/zzxey123xx/Nuker-def-server.git
+git clone https://github.com/A3t8al/Nuker-def-server.git
 cd Nuker-def-server
 ```
 
