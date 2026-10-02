@@ -1,4 +1,3 @@
-# Nuker-def-server
 # Nuker Zero
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-green)
@@ -11,11 +10,11 @@
 
 ### Tool Files
 
-![Tool Files](‏imgs/IMG_8239.jpeg)
+![Tool Files](imgs/IMG_8239.jpeg)
 
 ### Tool Interface
 
-![Tool Interface](‏imgs/IMG_8240.jpeg)
+![Tool Interface](imgs/IMG_8240.jpeg)
 
 ## Requirements
 
