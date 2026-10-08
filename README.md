@@ -1,7 +1,7 @@
 # Nuker Zero
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-green)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Linux-blue)
+![Platform](https://img.shields.io/badge/%20%7C%20iOS)
 ![Author](https://img.shields.io/badge/Author-A3t8al-red)
 
 **Nuker Zero** is a fast, encrypted, and modified version of the Nuker tool. It is designed to be lightweight and efficient, with support for iOS through iSH, Android through Termux, and Linux natively.
