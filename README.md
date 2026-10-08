@@ -12,7 +12,7 @@
 
 ![Nuker Zero Screenshot 1](imgs/IMG_8508.jpeg)
 
-![Nuker Zero GIF](img/ScreenRecording_10-09-202600-42-32_1.gif)
+![](img/ScreenRecording_10-09-202600-42-32_1.gif)
 
 ## Requirements
 
