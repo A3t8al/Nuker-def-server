@@ -1,134 +1,162 @@
 # Nuker Zero
 
-![Version](https://img.shields.io/badge/Version-1.0.0-green)
-![Platform](https://img.shields.io/badge/%20%7C%20iOS)
-![Author](https://img.shields.io/badge/Author-A3t8al-red)
+[![Version](https://img.shields.io/badge/Version-2.3.0-blue.svg)](https://github.com/A3t8al/Nuker-def-server)
+[![Platform](https://img.shields.io/badge/Platform-iSH%20%7C%20Alpine%20Linux%20i386-orange.svg)](#platform-support)
+[![Author](https://img.shields.io/badge/Author-A3t8al-green.svg)](https://guns.lol/o5k)
 
-**Nuker Zero** is a fast, encrypted, and modified version of the Nuker tool. It is designed to be lightweight and efficient, with support for iOS through iSH, Android through Termux, and Linux natively.
+## Description
+
+**Nuker Zero** is a fast, encrypted, lightweight, and efficient Nuker tool written for Python 3.9. It supports iOS through iSH and runs natively on compatible i386 Linux environments.
 
 ## Screenshots
 
-### Tool Files
+![Nuker Zero Screenshot 1](imgs/IMG_8239.jpeg)
 
-![Tool Files](imgs/IMG_8239.jpeg)
-
-### Tool Interface
-
-![Tool Interface](imgs/IMG_8240.jpeg)
+![Nuker Zero Screenshot 2](imgs/IMG_8240.jpeg)
 
 ## Requirements
 
-Before running the tool, make sure the following are installed:
+- Python 3.9
+- i386 architecture
+- musl libc environment
+- Required Python packages:
 
-- **Python 3**
-  - Example for iSH: `apk add python3 py3-pip`
-- **Zip/Unzip**
-  - Example for iSH: `apk add zip unzip`
+```bash
+pip install colorama pycryptodome requests
+```
 
 ## Installation and Usage
 
-### Download the Project from GitHub
+### Method 1: Clone the Repository
 
-You can download the project directly from the GitHub repository:
+```bash
+git clone https://github.com/A3t8al/Nuker-def-server.git
+cd Nuker-def-server
+pip install colorama pycryptodome requests
+python3 run_nuker.pyc
+```
 
-[Nuker-def-server on GitHub](https://github.com/A3t8al/Nuker-def-server.git)
+### Method 2: Download the ZIP Archive
 
-#### Option 1: Clone the Repository with Git
+1. Download the repository as a ZIP archive from [GitHub](https://github.com/A3t8al/Nuker-def-server).
+2. Extract the ZIP file.
+3. Open a terminal inside the extracted directory.
+4. Install the required packages:
+
+```bash
+pip install colorama pycryptodome requests
+```
+
+5. Run the tool:
+
+```bash
+python3 run_nuker.pyc
+```
+
+## iOS (iSH) Installation
+
+1. Install **iSH** from the Apple App Store.
+2. Open iSH and update the package repository:
+
+```bash
+apk update
+```
+
+3. Install Python, pip, and Git:
+
+```bash
+apk add python3 py3-pip git
+```
+
+4. Install the required Python packages:
+
+```bash
+pip install colorama pycryptodome requests
+```
+
+5. Clone the repository:
 
 ```bash
 git clone https://github.com/A3t8al/Nuker-def-server.git
 cd Nuker-def-server
 ```
 
-#### Option 2: Download as a ZIP File
-
-1. Open the [GitHub repository](https://github.com/zzxey123xx/Nuker-def-server).
-2. Select **Code**.
-3. Select **Download ZIP**.
-4. Extract the downloaded ZIP file.
-5. Open the extracted project directory.
-
-### Android Installation and Usage
-
-The tool can be downloaded and used on Android through the [Termux](https://termux.dev/) terminal application.
-
-#### 1. Install Termux
-
-Download Termux from [F-Droid](https://f-droid.org/packages/com.termux/) or its [official GitHub repository](https://github.com/termux/termux-app). Avoid outdated or unofficial versions where possible.
-
-#### 2. Update Termux Packages
-
-Open Termux and run:
+6. Run Nuker Zero:
 
 ```bash
-pkg update && pkg upgrade
+python3 run_nuker.pyc
 ```
 
-#### 3. Install the Required Packages
+## Linux Installation
+
+1. Install Python 3, pip, and Git:
 
 ```bash
-pkg install git python unzip
+sudo apt update
+sudo apt install python3 python3-pip git
 ```
 
-#### 4. Download the Project
+2. Install the required Python packages:
 
 ```bash
-git clone https://github.com/zzxey123xx/Nuker-def-server.git
+pip install colorama pycryptodome requests
+```
+
+3. Clone the repository:
+
+```bash
+git clone https://github.com/A3t8al/Nuker-def-server.git
 cd Nuker-def-server
 ```
 
-#### 5. Read the Instructions
+4. Run Nuker Zero:
 
 ```bash
-cat explain.txt
+python3 run_nuker.pyc
 ```
 
-Follow the instructions in `explain.txt` to continue. Only use the tool on systems, servers, or accounts that you own or have explicit permission to test.
+## Compatibility Note
 
-### Alternative: Install from a ZIP File
-
-If you already have the ZIP archive, you can install the tool manually:
-
-#### 1. Extract the Tool
-
-```bash
-unzip Nuker_V1.zip
-```
-
-When prompted for a password, enter:
+The encrypted `.so` files are built specifically for:
 
 ```text
-#def.tools.py-v1.0.0
+i386-linux-musl
 ```
 
-#### 2. Navigate to the Tool Directory
+They are not compatible with platforms using a different architecture or C library.
 
-```bash
-cd Nuker_Zero
+## Project Structure
+
+```text
+Nuker_Zero/
+├── run_nuker.pyc                      # Entry point
+├── run.cpython-39-i386-linux-musl.so  # Encrypted engine
+├── Def.cpython-39-i386-linux-musl.so  # Encrypted helper module
+├── core/                              # Encrypted core modules (4 .so files)
+├── ui/                                # Encrypted interface modules (3 .so files)
+├── data/                              # Local storage (not uploaded)
+└── explain.txt
 ```
-
-#### 3. Read the Instructions
-
-```bash
-cat explain.txt
-```
-
-#### 4. Run the Tool
-
-Follow the instructions in `explain.txt` to start the tool.
 
 ## Platform Support
 
-- **iOS:** Works through the [iSH Shell app](https://apps.apple.com/sa/app/ish-shell/id1436902243).
-- **Android:** Works through Termux.
-- **Linux:** Works natively.
+| Platform | Support |
+|---|---|
+| iSH on iOS | Supported |
+| Alpine Linux i386 | Supported |
+| x86_64 Linux | Not supported |
+| Termux ARM | Not supported |
+| Windows | Not supported |
+| macOS | Not supported |
+
+The unsupported platforms cannot run Nuker Zero because the encrypted `.so` files were built for `i386-linux-musl`.
 
 ## Links
 
-- **Discord Support Server:** [Join the server](https://discord.gg/0197)
-- **Discord Server 2:** [Join the server](https://discord.gg/qtWYvcm5c)
-- **Guns.lol Profile:** [View profile](https://guns.lol/o5k)
+- GitHub: [A3t8al/Nuker-def-server](https://github.com/A3t8al/Nuker-def-server)
+- Guns.lol: [guns.lol/o5k](https://guns.lol/o5k)
+- Discord Server: [Join the Discord server](https://discord.gg/0197)
 
 ## Disclaimer
 
-This tool is provided for educational purposes only. The author is not responsible for any misuse, damage, or loss resulting from the use of this tool. Always use it responsibly and only in environments where you have explicit authorization.
+Nuker Zero is provided for educational purposes only. The developer is not responsible for any misuse, damage, or illegal activity caused by this project. Always use the tool responsibly and only in environments where you have explicit permission.
