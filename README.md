@@ -12,7 +12,7 @@
 
 ![Nuker Zero Screenshot 1](imgs/IMG_8508.jpeg)
 
-![Nuker Zero GIF](imgs/ScreenRecording_10-09-202600-42-32_1.gif)
+![Nuker Zero GIF](img/ScreenRecording_10-09-202600-42-32_1.gif)
 
 ## Requirements
 
@@ -82,34 +82,6 @@ cd Nuker-def-server
 ```
 
 6. Run Nuker Zero:
-
-```bash
-python3 run_nuker.pyc
-```
-
-## Linux Installation
-
-1. Install Python 3, pip, and Git:
-
-```bash
-sudo apt update
-sudo apt install python3 python3-pip git
-```
-
-2. Install the required Python packages:
-
-```bash
-pip install colorama pycryptodome requests
-```
-
-3. Clone the repository:
-
-```bash
-git clone https://github.com/A3t8al/Nuker-def-server.git
-cd Nuker-def-server
-```
-
-4. Run Nuker Zero:
 
 ```bash
 python3 run_nuker.pyc
