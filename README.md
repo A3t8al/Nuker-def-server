@@ -10,7 +10,7 @@
 
 ## Screenshots
 
-![Nuker Zero Screenshot 1](imgs/IMG_8239.jpeg)
+![Nuker Zero Screenshot 1](imgs/IMG_8508.jpeg)
 
 ![Nuker Zero Screenshot 2](imgs/IMG_8240.jpeg)
 
