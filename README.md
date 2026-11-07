@@ -128,7 +128,9 @@ The unsupported platforms cannot run Nuker Zero because the encrypted `.so` file
 - GitHub: [A3t8al/Nuker-def-server](https://github.com/A3t8al/Nuker-def-server)
 - Guns.lol: [guns.lol/o5k](https://guns.lol/o5k)
 - Discord Server: [Join the Discord server](https://discord.gg/z4y)
+
 or
+
 - Discord Server: [Join the Discord server](https://discord.gg/zQEqCbcgB)
 ## Disclaimer
 
